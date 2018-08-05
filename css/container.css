@@ -2,12 +2,13 @@
     width: 768px;
     height: 100%;
     margin: 0 auto;
-
     background: #ccc;
 }
 
 @media (min-width: 1200px) {
     .container {
+        position: relative;
         width: 1200px;
+        margin-top: -4px;
     }
 }

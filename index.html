@@ -7,11 +7,25 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+<header class="header">
+    <div class="header__background">
+        <div class="header__background_img-wrapper">
+            <img src="img/background-photo-small.jpg" class="header__background_image" width="768" height="512" alt="">
+            <img src="img/header-text.png" class="header__background_text-image" width="458" height="352" alt="">
+        </div>
+    </div>
+</header>
 <section class="container">
+    <div class="introduction">
+        <h1 class="introduction_title">
+            Седона — небольшой городок в Аризоне, заслуживающий большего!
+        </h1>
+        <div class="advantage-title">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</div>
+    </div>
     <div class="advantage-list">
         <div class="advantage-item advantage-item_theme_blue advantage-item_image_right">
             <div class="advantage-item__image">
-                <img src="img/picture1.jpg" width="800" height="256" alt="">
+                <img src="img/picture1-768.jpg" width="512" height="256" alt="">
             </div>
             <div class="advantage-item__description">
                 <div class="advantage-item__text advantage-item__text_name">
@@ -66,7 +80,7 @@
         </div>
         <div class="advantage-item advantage-item_theme_blue advantage-item_image_left">
             <div class="advantage-item__image">
-                <img src="img/picture2.jpg" width="800" height="256" alt="">
+                <img src="img/picture2-768.jpg" width="512" height="256" alt="">
             </div>
             <div class="advantage-item__description">
                 <div class="advantage-item__text advantage-item__text_name">
@@ -120,6 +134,86 @@
             </div>
         </div>
     </div>
+</section>
+<section class="hotels">
+    <h2>Поиск отеля</h2>
+    <ul class="hotels-list">
+        <li class="hotels-item">
+            <img src="img/amara.jpg" class="hotels-item__image" width="135" height="90" alt="">
+            <div class="hotels-item__description">
+                <div class="hotels-item__description_name">Amara Resort & Spa</div>
+                <div class="hotels-item__description_type">Гостиница</div>
+                <div class="hotels-item__description_price">От 4000 р.</div>
+                <div class="hotels-item__description_button_about">
+                    <button class="button button_color_blue">Подробнее</button>
+                </div>
+                <div class="hotels-item__description_button_book">
+                    <button class="button button_color_brown">Забронировать</button>
+                </div>
+            </div>
+            <div class="hotels-item__rating">
+                <div class="hotels-item__rating_stars">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                </div>
+                <div class="hotels-item__rating_description">
+                    <div class="hotels-item__rating_description_label">Рейтинг:</div>
+                    <div class="hotels-item__rating_description_value">8,5</div>
+                </div>
+            </div>
+        </li>
+        <li class="hotels-item">
+            <img src="img/desert.jpg" class="hotels-item__image" width="135" height="90" alt="">
+            <div class="hotels-item__description">
+                <div class="hotels-item__description_name">Desert Quail Inn</div>
+                <div class="hotels-item__description_type">Мотель</div>
+                <div class="hotels-item__description_price">От 3000 Р.</div>
+                <div class="hotels-item__description_button_about">
+                    <button class="button button_color_blue">Подробнее</button>
+                </div>
+                <div class="hotels-item__description_button_book">
+                    <button class="button button_color_brown">Забронировать</button>
+                </div>
+            </div>
+            <div class="hotels-item__rating">
+                <div class="hotels-item__rating_stars">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                </div>
+                <div class="hotels-item__rating_description">
+                    <div class="hotels-item__rating_description_label">Рейтинг:</div>
+                    <div class="hotels-item__rating_description_value">8,9</div>
+                </div>
+            </div>
+        </li>
+        <li class="hotels-item">
+            <img src="img/villas.jpg" class="hotels-item__image" width="135" height="90" alt="">
+            <div class="hotels-item__description">
+                <div class="hotels-item__description_name">Villas at Poco Diablo</div>
+                <div class="hotels-item__description_type">Апартаменты</div>
+                <div class="hotels-item__description_price">От 2000 Р.</div>
+                <div class="hotels-item__description_button_about">
+                    <button class="button button_color_blue">Подробнее</button>
+                </div>
+                <div class="hotels-item__description_button_book">
+                    <button class="button button_color_brown">Забронировать</button>
+                </div>
+            </div>
+            <div class="hotels-item__rating">
+                <div class="hotels-item__rating_stars">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                </div>
+                <div class="hotels-item__rating_description">
+                    <div class="hotels-item__rating_description_label">Рейтинг:</div>
+                    <div class="hotels-item__rating_description_value">9,2</div>
+                </div>
+            </div>
+        </li>
+    </ul>
 </section>
 </body>
 </html>
